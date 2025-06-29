@@ -1,3 +1,4 @@
+/*
 const container = document.querySelector('.container');
 
 const title = document.createElement('div');
@@ -18,4 +19,19 @@ let student = true;
 document.querySelector('#p1').textContent = `My name is: ${fullName}`;
 document.querySelector('#p2').textContent = `My age is: ${age}`;
 document.querySelector('#p3').textContent = `I am a student? ${student}`;
+
+let students = 30;
+
+students++;
+students += 1;
+students--;
+students -= 1;
+students *= 2;
+students /= 2;
+students **= 2;
+students %= 2;
+
+console.log(students);
+*/
+
 
