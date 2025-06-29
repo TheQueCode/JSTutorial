@@ -32,6 +32,37 @@ students **= 2;
 students %= 2;
 
 console.log(students);
+
+
+// Accept user input
+
+// easy way = window prompt
+// professional way = HTML textbox
+
+let userName;
+
+userName = window.prompt('What is your user name?');
+
+console.log(userName);
 */
+const container = document.querySelector('.container');
 
+const label = document.createElement('label');
+label.textContent = 'username: '
+label.id = 'username';
 
+const input = document.createElement('input');
+input.className = 'userInput';
+input.id = 'userInput';
+input.label = 'userInput';
+
+const submitBtn = document.createElement('button');
+submitBtn.textContent = 'Submit';
+submitBtn.className = 'submit';
+submitBtn.id = 'submit';
+
+container.appendChild(label);
+container.appendChild(input);
+container.appendChild(submitBtn);
+
+submitBtn.addEventListener('click', () => console.log(input.value));
