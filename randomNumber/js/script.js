@@ -100,3 +100,4 @@ function generateNumbers () {
   displayNumbers(powerNumsDisplay, powerBallTimes());
   displayNumbers(megaNumsDisplay, megaTimes());
 }
+
