@@ -168,4 +168,13 @@ const max = 100;
 const randomNum = Math.floor(Math.random() * (max - min) + min);
 
 console.log(randomNum);
+
+// if statements
+
+const age = 25;
+
+if (age >= 18) {
+  console.log('Yes');
+}
 */
+// checked property
