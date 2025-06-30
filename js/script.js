@@ -78,7 +78,6 @@ z = Boolean(z);
 console.log(x, typeof x); // NaN 'number'
 console.log(y, typeof y); // pizza string
 console.log(z, typeof z); // true 'boolean'
-*/
 
 // Counter program
 
@@ -128,3 +127,8 @@ function reset () {
   count = 0;
   label.textContent = count;
 }
+*/
+// Math object
+
+
+
