@@ -44,7 +44,7 @@ let userName;
 userName = window.prompt('What is your user name?');
 
 console.log(userName);
-*/
+
 const container = document.querySelector('.container');
 
 const label = document.createElement('label');
@@ -66,3 +66,17 @@ container.appendChild(input);
 container.appendChild(submitBtn);
 
 submitBtn.addEventListener('click', () => console.log(input.value));
+
+let x = 'pizza';
+let y = 'pizza';
+let z = 'pizza';
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x); // NaN 'number'
+console.log(y, typeof y); // pizza string
+console.log(z, typeof z); // true 'boolean'
+*/
+
